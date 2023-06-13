@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alkatra', cursive; */
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #ffff;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+nav .logo{
+    margin-left: 50px;
+}
+
+nav .logo span{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+nav .items{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav .items a{
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .info{
+    display: flex;
+    gap: 20px;
+}
+
+.hero .info .br{
+    width: 117px;
+    height: 97px;
+    background-color: #90959f85;
+    text-align: center;
+   /*  opacity: 0.5; */
+}
+
+.hero .info p{
+    color: white;
+    font-size: 78px;
+}
+
+
+#project h1 , #about h1 , #employees h1 , #contact h1{
+    margin: 50px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #808080;
+}
+
+.container{
+    width: 100%;
+    /* padding: 0 19.0336%; */
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .card{
+    position: relative;
+    width: 40%;
+}
+
+.container .card img{
+    width: 100%;
+}
+
+.container .card p{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+
+#about h1{
+    margin-bottom: 5px;
+}
+#about p{
+    margin-left: 20px;
+}
+
+#employees .container .card p{
+    position: static;
+    height: max-content;
+    width: 50%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 16px;
+}
+
+#employees .container .card button{
+    width: 95%;
+    border: none;
+    margin-left: 2.5%;
+}
+
+#employees .container .card .job{
+    color: #808080;
+}
+
+#contact h1{
+    margin-bottom: 0;
+}
+#contact input{
+    display: block;
+    width: 98%;
+    margin: 10px 20px;
+    padding-left: 20px;
+    color: blue;
+}
+
+input::placeholder{
+    color: brown;
+}
+
+#contact textarea{
+    width: 98%;
+    margin: 10px 20px;
+}
+
+#contact .btn{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    font-size: xx-large;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+footer span{
+    color: yellow;
+}
+
+.one , .two , .three{
+    width: 25%;
+    height: 100px;
+    display: inline-block;
+}
+
+.one{
+    background-color: green;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: red;
+}
